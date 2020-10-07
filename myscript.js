@@ -7,7 +7,21 @@
 //     console.log ، if ملاحظة: سوف تستخدم
 
 // 👇 هنا function عرف الدالة او
+ 
+driving (19);
 
+function driving (x) {
+   
+    if(x >= 18 ) {
+    console.log("مبروك سوف تحصل على الليسن")
+    }
+    else {
+       console.log("للأسف عمرك لا يسمح") 
+    }
+ 
+   
+    
+}
 
 
 // لا تنسى أن تنادي الدالة
@@ -22,7 +36,10 @@
 
 // 👇 هنا array عرف المصفوفة او
 
-
+let iceCream =["mango", "strawberry", "chocolate","pinacolada"]
+for (let x of iceCream) {
+    console.log(x)
+}
 
 
 
@@ -32,3 +49,23 @@
 
 // --------------------------------- 🔥 بونص ------------------------------------
 // while loop اطبع احد المصفوفات بإستخدام
+ 
+myIceCream (iceCream)
+
+function myIceCream (z) {
+    console.log(iceCream)
+}
+ 
+let cartoon = [ "minions" , "spongebob", " ponyo"]
+for (let v of cartoon) {
+    console.log(cartoon)
+}
+
+let y = 0;
+while (y< cartoon.length){
+    console.log(cartoon[y])
+    y++
+ 
+} 
+
+
